@@ -155,15 +155,3 @@ if st.button("Natijani Ko'rish"):
     st.success(f"**Bashorat:** {result}")
     
 
-st.markdown(
-    """
-    <div class='footer'>
-      Ushbu ilova jigar kasalligi bo'yicha bashorat qiladi. Muallif: Mamirov Alisher<br>
-        <a href='https://colab.research.google.com/drive/16tmCRR2vefD2B-T0339JOegnTJjVJ1MM?usp=sharing' target='_blank'>
-            📰 Colab
-        </a>
-        
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
